@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./Bootstrap/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+  <title>TinDog</title>
+</head>
+
+<body>
+  <div class="container-fluid p-0 overflow-hidden">
+    <section class="bg-pink pt-3">
+      <!-- Nav Bar -->
+      <div class="dropdown show d-md-none text-end mb-5">
+        <h2 class="col-sm-12 col-md-1 text-center">Tindog</h2>
+        <a class="btn btn-pink dropdown-toggle text-white" href="#" role="button" id="dropdownMenuLink"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          NavBar
+        </a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="#">Contacts</a>
+          <a class="dropdown-item" href="#pricing">Pricing</a>
+          <a class="dropdown-item" href="#cta">Downloads</a>
+        </div>
+      </div>
+
+      <div class="d-md-flex justify-content-lg-between align-items-center px-5 d-none">
+        <h2 class="col-sm-12 col-md-1 text-center">Tindog</h2>
+        <div class="col-sm-11">
+          <nav class="navbar navbar-expand navbar-light  justify-content-end">
+            <ul class="nav navbar-nav justify-content-sm-center ">
+              <li class="nav-item active mx-5">
+                <a class="nav-link text-white" href="#">Contact</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link text-white" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link text-white" href="#cta">Downloads</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- Title -->
+      <div class="row align-items-center">
+        <div class="col-sm-12 col-md-6 p-5 mx-auto">
+          <h1 class="text-white my-3">Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-black text-white py-2 px-3 align-content-center">
+            <i class="bi bi-apple mx-1"></i>Download</button>
+          <button type="button" class="btn btn-teal ms-2 py-2 px-3 text-white"><i
+              class="bi bi-google-play mx-2"></i>Download</button>
+        </div>
+        <div class="col-xm-12 col-sm-5 my-5">
+          <img src="images/iphone6.png" alt="iphone-mockup" style="width:300px ; transform:rotateZ(30deg)">
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- Features -->
+
+  <section id="features">
+    <div class="container my-5 py-5 fs-4">
+      <div class="row justify-content-between">
+        <div class="col-xs-12 col-md-3 d-flex flex-column text-center my-3">
+          <i class="bi bi-check-circle-fill fs-3"></i>
+          <h3>Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+        <div class="col-xs-12 col-md-3 d-flex flex-column text-center my-3">
+          <i class="bi bi-heart-fill fs-3"></i>
+          <h3>Elite Clientele</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
+        </div>
+        <div class="col-xs-12 col-md-3 d-flex flex-column text-center my-3">
+          <i class="bi bi-bootstrap fs-3"></i>
+          <h3>Guaranteed to work.</h3>
+          <p>Find the love of your dog's life or your money back.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+  <div class="container-fluid">
+    <section id="testimonials" class="bg-pink text-white row py-5 justify-content-center overflow-hidden">
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner my-5">
+          <div class="carousel-item active">
+            <div>
+              <h1 class="text-center mt-5">I no longer have to sniff other dogs for love. <br> I've found the
+                hottest
+                Corgi on
+                TinDog. Woof.
+              </h1>
+              <img src="images/dog-img.jpg" alt="dog-profile" class="rounded-circle d-block mx-auto" style="width:10%">
+              <h4 class="text-center">Pebbles, New York</h4>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div>
+              <h1 class="text-center mt-5">My dog used to be so lonely, but
+                with TinDog's help, <br>they've found the love of their
+                life. I think.</h1>
+              <img class="rounded-circle d-block mx-auto" style="width:10%" src="images/lady-img.jpg"
+                alt="lady-profile">
+              <h4 class="text-center">Beverly, Illinois</h4>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next " href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+      </div>
+  </div>
+  </section>
+  <!-- Press -->
+  <div class="container-fluid">
+    <section id="press" class="row justify-content-center bg-pink py-5 overflow-hidden">
+      <img src="images/techcrunch.png" alt="tc-logo" class="col-3 col-sm-12" style="width:20%">
+      <img src="images/tnw.png" alt="tnw-logo" class="col-3 col-sm-12" style="width:20%">
+      <img src="images/bizinsider.png" alt="biz-insider-logo" class="col-3 col-sm-12" style="width:20%">
+      <img src="images/mashable.png" alt="mashable-logo" class="col-3 col-sm-12" style="width:20%">
+  </div>
+  </section>
+  <!-- Pricing -->
+  <section id="pricing" class="pt-5 overflow-hidden">
+    <div class="text-center">
+      <h2>A Plan for Every Dog's Needs</h2>
+      <p>Simple and affordable price plans for your and your dog.</p>
+    </div>
+
+    <div class="row justify-content-around  py-5">
+      <div class="card text-center col-sm-12 col-md-3">
+        <h2 class="card-header fw-bold">
+          Chihuahua
+        </h2>
+        <div class="card-body">
+          <h2 class="card-title">Free</h2>
+          <p class="card-text">
+          <p>5 Matches Per Day</p>
+          <p>10 Messages Per Day</p>
+          <p>Unlimited App Usage</p>
+          </p>
+          <a href="#" class="btn btn-dark text-light">Sign Up</a>
+        </div>
+      </div>
+
+      <div class="card text-center col-sm-12 col-md-3">
+        <h2 class="card-header fw-bold">
+          Labrador
+        </h2>
+        <div class="card-body">
+          <h2 class="card-title">$49 / mo</h2>
+          <p class="card-text">
+          <p>Unlimited Matches</p>
+          <p>Unlimited Messages</p>
+          <p>Unlimited App Usage</p>
+          </p>
+          <a href="#" class="btn btn-dark text-light">Sign Up</a>
+        </div>
+      </div>
+
+      <div class="card text-center col-sm-12 col-md-3">
+        <h2 class="card-header fw-bold">
+          Mastiff
+        </h2>
+        <div class="card-body">
+          <h2 class="card-title">$99 / mo</h2>
+          <p class="card-text">
+          <p>Unlimited Matches</p>
+          <p>Unlimited Messages</p>
+          <p>Unlimited App Usage</p>
+          </p>
+          <a href="#" class="btn btn-dark text-light">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Call to Action -->
+  <section id="cta" class="bg-pink p-5 ">
+    <div class="row text-white justify-content-center align-items-center py-5">
+      <h1 class="col-sm-12 col-md-7 text-center">Find the True Love of Your Dog's Life Today.</h1>
+      <div class="col-12 py-5 d-flex justify-content-center">
+        <button type="button" class="btn btn-black text-white mx-3 py-2 px-3 align-content-center">
+          <i class="bi bi-apple mx-1"></i>Download</button>
+        <button type="button" class="btn btn-teal  py-2 px-3 text-white"><i
+            class="bi bi-google-play mx-2"></i>Download</button>
+      </div>
+    </div>
+
+  </section>
+  <!-- Footer -->
+  <footer id="footer" class="bg-dark text-300 py-2">
+    <p>© Copyright 2022 TinDog</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>
